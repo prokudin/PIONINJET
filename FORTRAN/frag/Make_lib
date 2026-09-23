@@ -1,0 +1,9 @@
+FC = g77
+
+FFLAGS = -g
+
+OBJECTS = pkhff.o kkp.o polin2.o polint.o grille_had_charged.o locate.o\
+ dlib.o 
+
+toy.run: toy.o $(OBJECTS)
+	$(FC) $(FFLAGS) -o $@ $+

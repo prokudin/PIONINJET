@@ -1,0 +1,26 @@
+
+HOW TO USE THE ROUTINES AND GRIDS TO EXTRACT THE AKK FFS
+
+All the FORTRAN routines that you need are in "akk.f". Put this file
+and all grids in the same directory as your main program. Write
+"include 'akk.f'" at the bottom of your main program. The extraction
+is done by issuing in your main program the command "CALL
+AKK(IH,Z,Q,DH)". For these arguments' meanings, see the comments in
+"SUBROUTINE AKK(IH,Z,Q,DH)", at the top of "akk.f".
+
+The file "ffakk.f" contains an example main program for extracting the
+AKK FFs. It is sufficient to compile ffakk.f (and hence the akk.f
+routines) with the command
+
+g77 -o ffakk ffakk.f
+
+or something similar for a different compiler.
+
+The values of LambdaQCD for 3, 4 and 5 flavours are returned in the
+array lambdaQCD(3:5) by "CALL AKK_LAMBDAQCD(LAMBDAQCD)" (see ffakk.f)
+
+FFs are not provided in the range 0.05 < z, since they were not
+determined there.  Furthermore, FFs are only provided in the range 1
+GeV < Q < sqrt(100000) GeV --- if you need a larger range, please
+contact me. Note that the validity of the fixed order approximation to
+DGLAP evolution is dubious in the region Q < O(1) GeV.
