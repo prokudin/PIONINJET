@@ -1,0 +1,31 @@
+{
+  "comparison": [
+    {
+      "evolution": 0,
+      "calculation": "Gaussian, quark jets",
+      "driver_to_paper_ratio_min": 0.3731095584583784,
+      "driver_to_paper_ratio_max": 0.37544062466609796,
+      "max_relative_difference": 0.6268904415416217
+    },
+    {
+      "evolution": 0,
+      "calculation": "Gaussian, quark and gluon jets",
+      "driver_to_paper_ratio_min": 0.9948163889318679,
+      "driver_to_paper_ratio_max": 1.001031675607198,
+      "max_relative_difference": 0.0051836110681321435
+    },
+    {
+      "evolution": 1,
+      "calculation": "TMD evolution, quark jets",
+      "driver_to_paper_ratio_min": 0.7065392091375471,
+      "driver_to_paper_ratio_max": 0.9618797467442288,
+      "max_relative_difference": 0.2934607908624529
+    }
+  ],
+  "alpha_hard_squared": 0.019903807939048116,
+  "LO_pdf": "cteq6l1",
+  "LO_ff": "DSS LO, PILO.GRID",
+  "gaussian_width_GeV2": 0.12,
+  "convention": "Driver includes 4*pt*jt relative to Cartesian FUU of paper Eq. 1.",
+  "outgoing_gluon_fraction_LO": 0.6249463090782156
+}

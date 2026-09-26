@@ -1,0 +1,43 @@
+{
+  "run": "central",
+  "reference": "1707.00913v2, Fig. 4; PDF vector paths, 15 points per curve",
+  "configuration": {
+    "PDF": "CT10nlo member 0",
+    "FF": "DSS NLO; repository root PINLO.GRID, first 816 records",
+    "matching": "repository"
+  },
+  "curves": [
+    {
+      "z": 0.13,
+      "charge": 1,
+      "max_absolute_difference": 0.0004344635786670272,
+      "rms_absolute_difference": 0.00028475225586981886,
+      "max_relative_difference": 0.3792084466462175,
+      "max_quadrature_change": 7.15264291616894e-08
+    },
+    {
+      "z": 0.13,
+      "charge": -1,
+      "max_absolute_difference": 0.0008658438953850272,
+      "rms_absolute_difference": 0.0005548493987332408,
+      "max_relative_difference": 0.4278339764002449,
+      "max_quadrature_change": 1.0782564824687868e-07
+    },
+    {
+      "z": 0.37,
+      "charge": 1,
+      "max_absolute_difference": 0.00169753318073141,
+      "rms_absolute_difference": 0.0012482523864756905,
+      "max_relative_difference": 0.3831169499149451,
+      "max_quadrature_change": 4.99746626706106e-06
+    },
+    {
+      "z": 0.37,
+      "charge": -1,
+      "max_absolute_difference": 0.002775436594080434,
+      "rms_absolute_difference": 0.0020332668282343432,
+      "max_relative_difference": 0.45424675036210893,
+      "max_quadrature_change": 3.4406745169184016e-06
+    }
+  ]
+}

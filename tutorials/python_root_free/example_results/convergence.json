@@ -1,0 +1,10 @@
+{
+  "fine_hoppet": {
+    "max_absolute_A_change": 1.7699525514672937e-05,
+    "max_relative_A_change": 0.0018554257471663504
+  },
+  "b_range": {
+    "max_absolute_A_change": 2.486283566217277e-07,
+    "max_relative_A_change": 0.00015931715193717721
+  }
+}
