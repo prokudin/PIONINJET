@@ -13,9 +13,8 @@ dependencies of this tutorial.
 not yet reproduce the paper precisely.** At the smallest plotted transverse
 momentum their magnitudes are about 38–45% larger. The discrepancy falls to
 about 4–5% at the largest point. No parameters or normalization were fitted
-to the figure. Read the [numerical audit](AUDIT.md) and
-[questions for the authors](AUTHOR_QUESTIONS.md) before interpreting this as
-a reproduction of the published result.
+to the figure. Read the [numerical audit](AUDIT.md) before interpreting this
+as a reproduction of the published result.
 
 ![Fresh central calculation and published Figure 4 curves](example_results/comparison/figure4_comparison.png)
 

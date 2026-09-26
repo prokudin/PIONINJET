@@ -130,7 +130,7 @@ the evolved calculation. See [the numerical checks](example_results/figure5/figu
 
 ![Figure 5 comparison](example_results/figure5/figure5_comparison.png)
 
-## Convention and input questions that remain
+## Unresolved conventions and inputs
 
 - **Finite matching term.** The uploaded NLO routine has
   `1-2 CF alpha_s/pi` multiplying the delta contribution in both channels.
