@@ -1,0 +1,21 @@
+{
+  "source": "Standalone copy outside original checkout",
+  "external_PDF_data_path": "unset; bundled PDF sets used",
+  "clean_native_build": true,
+  "commands": [
+    "python3 prepare.py",
+    "bash build.sh",
+    "python3 reproduce.py --convergence --audit",
+    "python3 pionjet.py --order 32 --matching unit-delta --output results/unit_delta"
+  ],
+  "unchanged_numerical_CSV_files": [
+    "figure5/figure5_gaussian.csv",
+    "figure5/figure5_evolved.csv",
+    "b_range/figure4_curves.csv",
+    "unit_delta/figure4_curves.csv",
+    "fine_hoppet/figure4_curves.csv",
+    "central/figure4_curves.csv"
+  ],
+  "maximum_absolute_numerical_change": 0.0,
+  "original_integrand_audit": "4/4 passed"
+}

@@ -1,0 +1,14 @@
+{
+  "source_archives": {
+    "CT10nlo": "https://lhapdfsets.web.cern.ch/lhapdfsets/current/CT10nlo.tar.gz",
+    "cteq6l1": "https://lhapdfsets.web.cern.ch/lhapdfsets/current/cteq6l1.tar.gz"
+  },
+  "member": 0,
+  "data_version": 4,
+  "files": {
+    "CT10nlo/CT10nlo.info": "0af15a7b84026509e24fd682180b4b955918d9ba4bd90c25e2155fc69f09284a",
+    "CT10nlo/CT10nlo_0000.dat": "debe4b3a9dc9f319fb39b27b2553a6ed8abf72718a2c728c4cfc532e52cfe1b7",
+    "cteq6l1/cteq6l1.info": "2d4299251ec6e1f9a56d45b52588c3435db01a906db7a8607f653f5eeef882b0",
+    "cteq6l1/cteq6l1_0000.dat": "d1a9e5f162c6cfd389274392bf7717fa9677007bb466c38ba1232c70b7eba15a"
+  }
+}

@@ -1,0 +1,6 @@
+example_results/** linguist-generated=true
+upstream/** linguist-vendored=true
+# Keep the archived native sources byte-for-byte for checksum verification.
+upstream/** -text -whitespace
+pdfsets/**/*.dat linguist-vendored=true -text -whitespace
+pdfsets/**/*.info linguist-vendored=true -text -whitespace
